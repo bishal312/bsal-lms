@@ -18,8 +18,8 @@ export default function authLayout({ children }: { children: ReactNode }) {
         Back
       </Link>
       <div className="flex w-full max-w-sm flex-col gap-6">
-        <Link className="flex items-center gap-2 self-center font-medium" href={"/"}>
-          <Image src={"/logo.jpg"} alt="logo" width={120} height={120} />
+        <Link className="flex items-center gap-2 self-center font-medium justify-center mx-auto" href={"/"}>
+          <Image className="pointer-events-none" src={"/logo-bsal.jpg"} alt="logo" width={80} height={80} />
           BsalLMS
         </Link>
         {children}
